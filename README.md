@@ -1,6 +1,6 @@
-Arte Fora do Museu
+REA
 ==================
 
-Arte Fora do Museu site project based on WordPress child theme [JEO](https://github.com/cardume/jeo).
+REA site project based on WordPress child theme [JEO](https://github.com/cardume/jeo).
 
 Still a draft.
