@@ -492,9 +492,9 @@ class ArteForaDoMuseu_ArtGuides {
 
 	function user_menu_items() {
 		if(afdm_get_user_artguides()) : ?>
-			<li><a href="<?php echo $this->get_user_link(); ?>"><?php _e('My art guides', 'arteforadomuseu'); ?></a></li>
+			<li><a href="<?php echo $this->get_user_link(); ?>"><?php _e('My OER collections', 'arteforadomuseu'); ?></a></li>
 		<?php endif; ?>
-		<li><a href="#" class="add_guide"><?php _e('Create an art guide', 'arteforadomuseu'); ?></a></li>
+		<li><a href="#" class="add_guide"><?php _e('Create OER collection', 'arteforadomuseu'); ?></a></li>
 		<?php
 	}
 

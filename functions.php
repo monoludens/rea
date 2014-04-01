@@ -206,3 +206,11 @@ function bh_customizer_css() {
     <?php
 }
 add_action( 'wp_head', 'bh_customizer_css' );
+
+register_sidebar( array(
+    'name'         => __( 'header languages' ),
+    'id'           => 'header-1',
+    'description'  => __( 'Widgets in this area will be shown on the header side.' ),
+    'before_title' => '<h1>',
+    'after_title'  => '</h1>',
+) );

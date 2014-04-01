@@ -2,7 +2,7 @@
 	<div class="container">
 		
 		<div class="logo-ruler">
-			<!-- <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logos-footer-04.png" alt="<?php bloginfo('name'); ?>" class="scale-with-grid" /> -->
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logos-footer-01.png" alt="<?php bloginfo('name'); ?>" class="scale-with-grid" />
 		</div>
 		<div class="stamps">
 			<div class="cc">
@@ -13,13 +13,13 @@
 					<span class="text">
 						To the extent possible under law,
 						<a rel="dct:publisher"
-						href="http://bhasia.art.br/">
-						<span property="dct:title">BHÁsia</span></a>
+						href="http://mira.org.br/">
+						<span property="dct:title">MIRA</span></a>
 						has waived all copyright and related or neighboring rights to
-						<span property="dct:title">BHÁsia</span>.
+						<span property="dct:title">MIRA</span>.
 						This work is published from:
 						<span property="vcard:Country" datatype="dct:ISO3166"
-						content="BR" about="http://bhasia.art.br/">
+						content="BR" about="http://mira.org.br/">
 						Brasil</span>.
 					</span>
 				</p>
@@ -34,15 +34,15 @@
 		<div>
 			<div class="social">
 				<div class="social-interaction">
-					<a href="https://twitter.com/BHAsia" class="twitter-follow-button" data-show-count="false" data-lang="pt" data-show-screen-name="false">Seguir @arteforadomuseu</a>
+					<a href="https://twitter.com/okfnbr" class="twitter-follow-button" data-show-count="false" data-lang="pt" data-show-screen-name="false">Seguir @okfnbr</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-					<div class="fb-like" data-href="https://www.facebook.com/bhasia2013" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-font="verdana" data-colorscheme="light"></div>
+					<div class="fb-like" data-href="http://www.facebook.com/OpenKnowledgeBrasil" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true" data-font="verdana" data-colorscheme="light"></div>
 				</div>
 				<div class="social-links">
-					<a href="https://www.facebook.com/bhasia2013" class="facebook lsf" rel="external" target="_blank">&#xE047;</a>
-					<a href="http://instagram.com/bhasia#" class="instagram lsf" rel="external" target="_blank">&#xE155;</a>
-					<a href="https://twitter.com/BHAsia" class="twitter lsf" rel="external" target="_blank">&#xE12f;</a>
-					<a href="http://www.bhasia.art.br/video/" class="youtube lsf" rel="external" target="_blank">&#xE141;</a>
+					<a href="http://www.facebook.com/OpenKnowledgeBrasil" class="facebook lsf" rel="external" target="_blank">&#xE047;</a>
+					<!--<a href="http://instagram.com/bhasia#" class="instagram lsf" rel="external" target="_blank">&#xE155;</a>-->
+					<a href="https://twitter.com/okfnbr" class="twitter lsf" rel="external" target="_blank">&#xE12f;</a>
+					<!--<a href="http://www.bhasia.art.br/video/" class="youtube lsf" rel="external" target="_blank">&#xE141;</a>-->
 				</div>
 			</div>
 		</div>
