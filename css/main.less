@@ -288,7 +288,7 @@ input[type=submit] {
 		margin-right: 10px;
 		#langnav{
 			float: right;
-			margin-top: 25px;
+			margin: 15px;
 			ul{
 				list-style: none;
 				li{
@@ -623,7 +623,7 @@ input[type=submit] {
 				text-transform: uppercase;
 				color: #f9f9f9;
 				font-weight: 800;
-				.gradient(@main-color, #191919, @main-color);
+				.gradient(@orange, @orange, @orange);
 				text-shadow: 1px 1px 1px rgba(0,0,0,1);
 				position: relative;
 				cursor: default;
@@ -1937,7 +1937,7 @@ input[type=submit] {
 	width: 100%;
 	padding: 0;
 	padding-top: 10px;	
-	background: @main-color;
+	background: #fff;
 	overflow: visible;
 	.logo-ruler{
 		width: 767px;
@@ -2934,7 +2934,7 @@ body.wysiwyg p {
 				border: 1px solid #111;
 				color: @orange;
 				font-weight: 800;
-				.gradient(@main-color, #191919, @main-color);
+				.gradient(@orange, @orange);
 				text-shadow: 1px 1px 1px rgba(0,0,0,1);
 				.arrow {
 				}
@@ -2944,7 +2944,7 @@ body.wysiwyg p {
 			}
 			.dropdown-content {
 				background: #f0f0f0;
-				.gradient(#f0f0f0, #ddd, #f0f0f0);
+				.gradient(@orange, @orange);
 				.box-shadow(0 0 15px rgba(0,0,0,0.6));
 				.login-content {
 					margin: 10px;
@@ -2955,4 +2955,8 @@ body.wysiwyg p {
 			}
 		}	
 	}
+}
+
+#masthead #masthead-nav .user-meta .dropdown-title, .displaying-map #masthead #masthead-nav .user-meta .dropdown-title{
+	
 }
